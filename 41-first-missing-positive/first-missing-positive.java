@@ -1,4 +1,4 @@
-public class Solution {
+public class FirstMissingPositive {
     public int firstMissingPositive(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n; i++) {
@@ -16,3 +16,5 @@ public class Solution {
         return n + 1;
     }
 }
+
+class Solution extends FirstMissingPositive {}
